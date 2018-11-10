@@ -1,3 +1,23 @@
+/**
+ Given above string please write algorithm in JavaScript for the following:(The code should output the answers to the console)
+
+Given a string, find the first non-repeating character in it. For example, if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string is “GeeksQuiz”, then output should be ‘G’.
+
+1.Please provide the first and last repeating character in the string
+Console Log should be:
+First Repeating Character: ”h”
+Last Repeating Character: ”g”
+
+2.Please provide the first and last non-repeating letter in the string
+Console Log should be:
+First Non-repeating: “W”
+Last Non-repeating: “s”
+
+3.Provide the most repeated character in the string
+Console Log should be:
+Most Repeated: “g” 
+**/
+
 class RepeatCharactersDetector {
   constructor(str) {
     this.repeatRegistry = {};
